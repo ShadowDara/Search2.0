@@ -1,6 +1,6 @@
 # This script is written by ShadowDara
 # Github: https://github.com/ShadowDara
-# Version 1.0.0
+# Version 1.2.0
 
 import os
 

@@ -5,4 +5,4 @@
 ## 1.1.0
 
 ## 1.0.0
-- First Release
+- First Release of sai - Search and Indexing Programme

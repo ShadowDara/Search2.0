@@ -1,5 +1,7 @@
 # Changelogs
 
+## Changed Name to "sai - Search and Indexing Programme"
+
 ## V.1.2.0
 - added the size for each File in the (via "create-index.py") created Index File
 

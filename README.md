@@ -1,4 +1,6 @@
-# Index and Search Tool by ShadowDara Version 1.2.0
+# sai - Search and Indexing Programme by ShadowDara Version 1.2.0
+
+This File is about a little Explanation for your Version of sai - Search and Indexing Programme.
 
 ## Description
 
@@ -9,6 +11,11 @@ This project consists of two Python scripts designed to work together to manage 
 
 These tools are ideal for system administrators, developers, or anyone who needs a quick way to analyze and locate files in large file systems.
 
+## How to use
+- install Python - min python 3.6 or higher (recommended) needed
+- run the script
+- follow the instructions from the python script or Check this File, it contains a explanation for every included python script.
+
 
 # Downloads
 - Changelogs are at the end of this File.
@@ -16,16 +23,6 @@ These tools are ideal for system administrators, developers, or anyone who needs
 ### [Version 1.1.0](https://github.com/ShadowDara/Search2.0/releases/tag/V.1.1.0)
 
 ### [Version 1.0.0](https://github.com/ShadowDara/Search2.0/releases/tag/V.1.0.0)
-
-
-# sai - Search and Indexing Programme
-
-This File is about a little Explanation for your Version of sai - Search and Indexing Programme.
-
-## How to use
-- install Python - min python 3.6 or higher (recommended) needed
-- run the script
-- follow the instructions from the python script or Check this File, it contains a explanation for every included python script.
 
 
 # create-index.py

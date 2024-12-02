@@ -39,3 +39,7 @@ Graceful error handling: If the file doesn’t exist, the script provides a clea
 ### Example Use Cases
 Quickly locate files in a large directory structure using a pre-generated index file.
 Perform text-based searches on file names or metadata in an indexed directory list.
+
+# Credits
+
+This Projekt is made by ShadowDara

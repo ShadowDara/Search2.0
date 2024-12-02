@@ -1,6 +1,7 @@
-# sai - Search and Indexing Programme by ShadowDara Version 1.2.0
-
-This File is about a little Explanation for your Version of sai - Search and Indexing Programme.
+# sai - Search and Indexing Programme
+- This File is about a little Explanation for your Version of sai - Search and Indexing Programme.
+- by ShadowDara
+- Version 1.2.0
 
 
 # Downloads

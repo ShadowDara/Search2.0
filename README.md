@@ -18,7 +18,7 @@ These tools are ideal for system administrators, developers, or anyone who needs
 ### [Version 1.0.0](https://github.com/ShadowDara/Search2.0/releases/tag/V.1.0.0)
 
 
-# INFO for sai - Search and Indexing Programme
+# sai - Search and Indexing Programme
 
 This File is about a little Explanation for your Version of sai - Search and Indexing Programme.
 
@@ -80,6 +80,11 @@ Perform text-based searches on file names or metadata in an indexed directory li
 This Projekt is made by ShadowDara
 
 
+# Licence
+- MIT Licence
+- see LICENSE File for more Information
+
+
 # Changelogs
 
 ## V.1.2.0
@@ -89,7 +94,7 @@ This Projekt is made by ShadowDara
 - added ``INFO.md``
 
 ## V.1.1.0
-### added Statistics at the end of the (via "create-index.py") created Index File
+**added Statistics at the end of the (via "create-index.py") created Index File**
 
 ``Total directories: XXXX``
 

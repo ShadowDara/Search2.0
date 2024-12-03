@@ -1,8 +1,16 @@
 # This script is written by ShadowDara
+
 # Github: https://github.com/ShadowDara
+
 # Version 1.2.0
 
+# GitHub Repository: https://github.com/ShadowDara/Search2.0
+
 import os
+
+skript_verzeichnis = os.path.dirname(os.path.abspath(__file__))
+
+print("Folder path:", skript_verzeichnis, "\n\nLaunching Version 1.2.0 of sai - Search and Indexing Programme by ShadowDara.\n")
 
 def search_index_file_with_paths(index_file, search_term):
     """

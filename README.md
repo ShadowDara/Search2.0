@@ -109,6 +109,9 @@ This Projekt is made by ShadowDara
 - added the size for each File in the (via ``create-index.py``) created Index File
 - added ``INFO.md``
 
+some little changes:
+- added folder path and version output to the python scripts
+
 ## V.1.1.0
 
 **added Statistics at the end of the (via "create-index.py") created Index File**

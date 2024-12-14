@@ -1,7 +1,7 @@
 # sai - Search and Indexing Programme
 
 - This File is about a little Explanation for your Version of sai - Search and Indexing Programme.
-- Current Version: 1.2.0
+- Current Version: 1.3.0
 - [Github Repository](https://github.com/ShadowDara/Search2.0)
 
 
@@ -9,9 +9,24 @@
 
 - Changelogs are at the end of this File.
 
+### [Version 1.3.0](https://github.com/ShadowDara/Search2.0/releases/tag/V.1.3.0)
+
+### [Version 1.2.0](https://github.com/ShadowDara/Search2.0/releases/tag/V.1.2.0)
+
 ### [Version 1.1.0](https://github.com/ShadowDara/Search2.0/releases/tag/V.1.1.0)
 
 ### [Version 1.0.0](https://github.com/ShadowDara/Search2.0/releases/tag/V.1.0.0)
+
+
+# Content of this Package
+
+## create-index.py
+
+## edit-edittime.py
+
+## search-through-index.py
+
+- more detailed description and "How to use" are down below for each script.
 
 
 # Description
@@ -38,7 +53,7 @@ These tools are ideal for system administrators, developers, or anyone who needs
 This Python script indexes all directories and files within a specified folder (recursively) and writes the details into an output file. Additionally, it provides a summary of:
 
 - Directories and their names.
-- Files in each directory, including their sizes.
+- Files in each directory, including their sizes and edit time.
 - Total number of files and directories.
 - Total storage size of all files in megabytes (MB).
 
@@ -85,6 +100,47 @@ Perform text-based searches on file names or metadata in an indexed directory li
 - Open the File with Python 3.6 or higher
 
 
+# edit-edittime.py
+
+This Python script allows you to change the **access** and **modification** timestamps of one or multiple files in a folder.
+
+### Features
+
+- **Single File Mode**: Allows the user to select one file and modify its timestamps.
+- **Folder Mode**: Modifies the timestamps of all files in a folder (excluding subfolders).
+- **Custom Timestamp**: You can set the new access and modification timestamps to any valid date and time.
+
+### Installation
+
+### Usage
+
+**Enter the file path and the desired timestamp:**
+
+- Year
+- Month
+- Day
+- Hour
+- Minute
+- Second
+
+1. Single File Mode
+
+- This mode allows you to change the timestamps of one specific file.
+- Select Option 1 to change the timestamps for a single file.
+- then add the file path
+
+2. Folder Mode
+
+- This mode allows you to change the timestamps of all files in a folder (but not files in subfolders).
+- Select Option 2 to modify the timestamps of all files in a folder.
+- The script will process all files in the specified folder and update their timestamps.
+
+### Error Handling
+
+- If the file or folder path is invalid, an error message will be displayed.
+- If an invalid timestamp is entered, the script will ask for a valid input again.
+
+
 # Credits
 
 This Projekt is made by ShadowDara
@@ -101,6 +157,23 @@ This Projekt is made by ShadowDara
 
 
 # Changelogs
+
+## V.1.3.0
+
+**edit-edittime.py**
+- added a new python file for changing the edit time of Files
+
+**create-index.py**
+- added edit time to the index file in format ``YYYY-MM-DD HH:MM:SS``
+
+**search-through-index.py**
+
+added Feature to search Files via
+- size
+- date
+- stats
+
+added the option to save your results in to a new txt File.
 
 ## V.1.2.0
 
